@@ -1,6 +1,9 @@
 # Processos de implementação:
 
-Aplicação criada em React, foi utilizado a ContextAPI para o gerenciamento de estado da aplicação
+Aplicação criada em React, foi utilizado a ContextAPI para o gerenciamento de estado da aplicação.
+
+Integração com a api : https://www.api-football.com/ endpoint "players/search".
+
 
 # Serviços e Biblioteca utilizados
 
@@ -13,7 +16,7 @@ Aplicação criada em React, foi utilizado a ContextAPI para o gerenciamento de 
 - react-tagsinput
 - styled-components
 
-# Itens não implementados:
+# Implementações futuras:
  - Classificar listagem de times
  - Destacar campos obrigatórios
  - Integração de testes 
