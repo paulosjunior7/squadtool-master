@@ -284,6 +284,7 @@ export const CampField = styled.div`
 export const Scroll = styled(PerfectScrollbar)`
   max-height: 460px;
   overflow: hidden;
+  padding-right: 15px;
 `;
 
 export const PlayerList = styled.div`

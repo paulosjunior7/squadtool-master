@@ -33,9 +33,6 @@ const MyTeams: React.FC = () => {
         }
     }
 
-   
-
-
 return (
     <Container>
         <Card>

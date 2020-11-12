@@ -16,7 +16,7 @@ import Player from '../../models/Player';
 import Teams from '../../models/Teams'
 import Sigla from '../../utils/sigla';
 
-import { useParams } from 'react-router-dom';
+import { useParams , useHistory } from 'react-router-dom';
 
 interface Params {
     id: string;
@@ -37,6 +37,7 @@ interface Props {
 
 const CreateTeam = ({ match }: any) => {
     const { teams, addTeam, updateTeam, players } = useTeams();
+    const history = useHistory();
     const [team, setTeam] = useState<Teams>({} as Teams);
     const [tags, setTags] = useState<string[]>([]);
     const [search, setSearch] = useState('');
@@ -119,9 +120,11 @@ const CreateTeam = ({ match }: any) => {
         if (!id) {
             addTeam(Objeto);
             alert('Gravado!');
+            history.push('/');
         } else {
             updateTeam(Objeto, Number(id));
             alert('Alterado!');
+            history.push('/');
         }
     }
 

@@ -75,6 +75,19 @@ export const CardBody = styled.div`
         bottom: -98px;
     }
 
+    .title1 {
+        top: 10;
+        display: flex;
+        margin-right: 70px;
+    }
+
+    
+    .title2 {
+        top: 10;
+        display: flex;
+        margin-left: 70px;
+    }
+
     .select1 {
         width: 140px;
         height: 140px;
@@ -89,11 +102,11 @@ export const CardBody = styled.div`
         align-items: center;
         justify-content: center;
 
+
         .sigla {
             font-size: 35px;
             font-weight: bold;
             color: #fff;
-        
         }
 
         .percentage {
