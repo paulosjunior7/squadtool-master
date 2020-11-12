@@ -15,6 +15,7 @@ import { useTeams } from '../../contexts/contextTeams';
 import Player from '../../models/Player';
 import Teams from '../../models/Teams'
 import Sigla from '../../utils/sigla';
+import { toast } from 'react-toastify';
 
 import { useParams , useHistory } from 'react-router-dom';
 
@@ -119,11 +120,11 @@ const CreateTeam = ({ match }: any) => {
 
         if (!id) {
             addTeam(Objeto);
-            alert('Gravado!');
+            toast.success('saved with success!');
             history.push('/');
         } else {
             updateTeam(Objeto, Number(id));
-            alert('Alterado!');
+            toast.success('update with success!');
             history.push('/');
         }
     }
