@@ -1,3 +1,5 @@
+## Aplicativo web Squad Management Tool. Esta ferramenta orienta os usuários na criação e configuração de times de futebol, também mostra estatísticas sobre os times atuais
+
 # Processos de implementação:
 
 Aplicação criada em React, foi utilizado a ContextAPI para o gerenciamento de estado da aplicação.
