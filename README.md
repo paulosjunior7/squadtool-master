@@ -17,6 +17,7 @@ Integração com a api : https://www.api-football.com/ endpoint "players/search"
 - react-router-dom
 - react-tagsinput
 - styled-components
+- react-toastify
 
 # Implementações futuras:
  - Classificar listagem de times
